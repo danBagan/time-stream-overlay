@@ -1,3 +1,5 @@
+
+/*
 function light_mode() {
 
     var isDark = true;
@@ -17,5 +19,6 @@ function light_mode() {
     }
     
     _lightmode.style.color = "white";
-    */
+    
 }
+*/
