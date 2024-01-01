@@ -1,0 +1,12 @@
+body{
+    background-color: lime;
+}
+
+#time-title{
+    font-family: "Dank Mono";
+}
+
+#time {
+    font-family: "Dank Mono";
+    font-size: 400px;
+}
