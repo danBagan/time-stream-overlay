@@ -10,3 +10,7 @@ body{
     font-family: "Dank Mono";
     font-size: 400px;
 }
+
+#light-mode {
+    transform: translate(0, 50);
+}
