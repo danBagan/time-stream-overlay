@@ -16,6 +16,6 @@ If you have any feedback, please reach out to me at danielbagan00@gmail.com 🔧
 
 ![App Screenshot](https://github.com/danBagan/time-stream-overlay/assets/17460601/22935afa-0ecb-4d6c-9472-7669885e86e0)
 
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/640e8272-8bc3-4925-a093-dd4d9a47b69f/deploy-status)](https://app.netlify.com/sites/simple-time-overlay/deploys)
 
     
