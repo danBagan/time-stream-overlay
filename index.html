@@ -10,8 +10,9 @@
     let time;
     setInterval(() => {
       a = new Date();
-      time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
-      document.getElementById('time').innerHTML = time;
+      timeString = ('0' + a.getHours()).slice(-2) + ":" + ('0'+a.getMinutes()).slice(-2) + ":" + ('0'+a.getSeconds()).slice(-2);
+      //time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+      document.getElementById('time').innerHTML = timeString;
     }, 1000);
   </script>
         <script src="index.js"></script>
