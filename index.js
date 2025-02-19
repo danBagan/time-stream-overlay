@@ -30,6 +30,12 @@ function hideSelector(){
     //Hide the second one
     element2.style.display = element2.style.display === "none"?"block":"none";
 
+    //get Third element to be hidden
+    const element3 = document.getElementById("tutorial_hint");
+
+    //Hide the third element
+    element3.style.display = element3.style.display === "none"?"block":"none";
+
 
     // Listen for the space bar to be pressed and do stuff.
     document.addEventListener("keydown", function(event){

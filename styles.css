@@ -32,3 +32,9 @@ select {
     font-family: "Tomorrow";
     color: #0aab11;
 }
+
+#tutorial_hint {
+    font-family: "Tomorrow";
+    text-align: center;
+    color: #08950e;
+}
