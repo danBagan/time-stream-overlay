@@ -1,17 +1,34 @@
 body{
     background-color: lime;
 }
-
-#time-title{
+#time-title{    
     font-family: "Dank Mono";
 }
-
 #time {
     font-family: "Dank Mono";
-    font-size: 400px;
+    font-size: 250px;
+    text-align: center;
     color: white;
 }
+.time-wrapper{
+    padding-top: 10%;
+    text-align: center;
+}
 
-#light-mode {
-    transform: translate(0, 50);
+#selector-div{
+    width:100%;
+    text-align: center;;
+}
+select {
+     margin:0;
+    border: 1px solid #aaa;
+    padding-right: 25;
+    background-color: #0aab11;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#toggleHint {
+    text-align: center;;
+    font-family: "Tomorrow";
+    color: #0aab11;
 }

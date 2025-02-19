@@ -1,32 +1,50 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link href="styles.css" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="/assets/clock.png">
+
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Caesar+Dressing&family=Ewert&family=Funnel+Display:wght@300..800&family=Pirata+One&family=Teko:wght@300..700&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=UnifrakturCook:wght@700&display=swap"
+            rel="stylesheet">
+
+        <!--Second Lot of Fonts--><link
+            href="https://fonts.googleapis.com/css2?family=Condiment&family=Knewave&family=Pacifico&family=Schoolbell&family=Send+Flowers&family=Shadows+Into+Light&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+
         <title>Stream Time Overlay</title>
     </head>
-    <body id="body">
-        <script type="text/javascript" charset="utf-8">
-    let a;
-    let time;
-    setInterval(() => {
-      a = new Date();
-      timeString = ('0' + a.getHours()).slice(-2) + ":" + ('0'+a.getMinutes()).slice(-2) + ":" + ('0'+a.getSeconds()).slice(-2);
-      //time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
-      document.getElementById('time').innerHTML = timeString;
-    }, 1000);
-  </script>
+    <body id="body" onkeypress="hideSelector()">
+
         <script src="index.js"></script>
-        <span id="time"></span>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        <div class="time-wrapper">
+            <span id="time"></span>
+        </div>
+        <h1 id="toggleHint" class="hide">Press the Space Bar to Hide UI</h1>
 
-        <!--
-        <button id="light-mode" onclick="light_mode()">Change Mode</button>
-        -->
-
+        <div id="selector-div" class="hide">
+            <select id="input-font" class="input"
+                onchange="changeFont(this);">
+                <option value="Times New Roman">Times New
+                    Roman</option>
+                <option value="Arial">Arial</option>
+                <option value="Black Ops One">Black Ops One</option>
+                <option value="Caesar Dressing">Caesar Dressing</option>
+                <option value="Ewert">Ewert</option>
+                <option value="Funnel Display">Funnel Display</option>
+                <option value="Pirata One">Pirata One</option>
+                <option value="Teko">Teko</option>
+                <option value="Tomorrow">Tomorrow</option>
+                <option value="UnifrakturCook">UnifrakturCook</option>
+                <option value="Condiment">Condiment</option>
+                <option value="Knewave">Knewave</option>
+                <option value="Pacifico">Pacifico</option>
+                <option value="Send Flowers">Send Flowers</option>
+                <option value="Sour Gummy">Sour Gummy</option>
+            </select>
+        </div>
     </body>
-
 </html>
