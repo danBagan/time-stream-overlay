@@ -5,7 +5,7 @@ Simple time overlay is used for streamers & content creators to show the current
 
 ## Installation
 
-To get started simply add a browser source to OBS & paste in the link to the overlay and set the width and height properties to 1920x1080p for best results. If the green background is still there then add a filter/chroma-key or colour-key to the source and select green. It should now be transparent. Enjoy 🥳
+To get started simply add a browser source to OBS & paste in the link to the overlay (https://simple-time-overlay.netlify.app/) and set the width and height properties to 1920x1080p for best results. If the green background is still there then add a filter/chroma-key or colour-key to the source and select green. It should now be transparent. Enjoy 🥳
 
 ## Feedback
 
